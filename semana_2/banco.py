@@ -9,15 +9,15 @@ class banco:
   empleados="*30 empleados"
   ventanillas="*12 ventanillas"
   tramites="*pagares, depositos y transferencias"
-  def retirar (sel):
+  def retirar (self):
     print("Retirar")
-  def depositar (sel):
+  def depositar (self):
     print("Depositar")
-  def transferir (sel):
+  def transferir (self):
     print("Transferir")
-  def abonar (sel):
+  def abonar (self):
     print("Abonar")
-  def pagar_servicios_(sel):
+  def pagar_servicios_(self):
     print("Pagar servicios ")
 ban=banco()
 ban.retirar()

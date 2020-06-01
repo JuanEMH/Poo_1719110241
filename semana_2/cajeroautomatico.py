@@ -9,15 +9,15 @@ class cajero:
   pnatalla="*tactil"
   red_bancaria="*At&t"
   tramites="*consulta de saldos"
-  def retirar (sel):
+  def retirar (self):
     print("Retirar")
-  def depositar (sel):
+  def depositar (self):
     print("Depositar")
-  def transferir (sel):
+  def transferir (self):
     print("Transferir")
-  def abonar (sel):
+  def abonar (self):
     print("Abonar")
-  def pagar_servicios_(sel):
+  def pagar_servicios_(self):
     print("Pagar servicios ")
 caj=cajero()
 print(caj.nombre)
